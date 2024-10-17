@@ -1,0 +1,22 @@
+{
+  "name": "demo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "inversify": "^6.0.2",
+    "reflect-metadata": "^0.2.2",
+    "tslog": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}
