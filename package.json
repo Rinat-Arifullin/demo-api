@@ -6,6 +6,8 @@
   "type": "commonjs",
   "scripts": {
     "start": "node ./dist/main.js",
+    "dev": "nodemon",
+    "dev:inspect": "nodemon -e ts,json --exec node --inspect=localhost:9229 -r ts-node/register src/main.ts",
     "build": "tsc"
   },
   "author": "",
@@ -17,6 +19,9 @@
     "tslog": "^3.2.2"
   },
   "devDependencies": {
-    "@types/express": "^5.0.0"
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
   }
 }
